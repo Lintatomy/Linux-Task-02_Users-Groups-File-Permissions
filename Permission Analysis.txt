@@ -1,0 +1,90 @@
+Permission Analysis
+
+1. Permission: 755
+
+Representation:
+rwxr-xr-x
+
+Owner Rights:
+Read, Write, Execute
+
+Group Rights:
+Read, Execute
+
+Others Rights:
+Read, Execute
+
+Use Case:
+Executable programs and web server directories.
+
+
+2. Permission: 644
+
+Representation:
+rw-r--r--
+
+Owner Rights:
+Read, Write
+
+Group Rights:
+Read
+
+Others Rights:
+Read
+
+Use Case:
+Documents and configuration files.
+
+
+3. Permission: 777
+
+Representation:
+rwxrwxrwx
+
+Owner Rights:
+Read, Write, Execute
+
+Group Rights:
+Read, Write, Execute
+
+Others Rights:
+Read, Write, Execute
+
+Use Case:
+Not recommended because anyone can modify the file.
+
+
+4. Permission: 600
+
+Representation:
+rw-------
+
+Owner Rights:
+Read, Write
+
+Group Rights:
+No Access
+
+Others Rights:
+No Access
+
+Use Case:
+Password files and sensitive information.
+
+
+5. Permission: 700
+
+Representation:
+rwx------
+
+Owner Rights:
+Read, Write, Execute
+
+Group Rights:
+No Access
+
+Others Rights:
+No Access
+
+Use Case:
+Private scripts and personal directories.

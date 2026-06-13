@@ -1,0 +1,21 @@
+Part G: Linux Security Research
+
+1. Why are file permissions important?
+File permissions control who can read, write, or execute files. They protect sensitive information from unauthorized access and help maintain system security.
+
+2. What happens if sensitive files are given 777 permissions?
+Anyone can read, modify, or delete the file. This can lead to:
+Data theft
+Unauthorized modifications
+Malware insertion
+System compromise
+
+3. What is the Principle of Least Privilege?
+The Principle of Least Privilege means users should receive only the permissions necessary to perform their tasks and nothing more. This reduces security risks.
+
+4. Why do organizations restrict user access?
+Organizations restrict access to:
+Protect sensitive data
+Prevent accidental changes
+Reduce insider threats
+Meet security and compliance requirements

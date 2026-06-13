@@ -1,0 +1,37 @@
+
+Security Challenge Answers
+
+1. password_backup.txt
+
+Recommended Permission:
+600
+
+Reason:
+Contains sensitive password information and should only be accessible by the owner.
+
+
+2. public_notice.txt
+
+Recommended Permission:
+644
+
+Reason:
+Everyone should be able to read the notice, but only the owner can modify it.
+
+
+3. system_log.txt
+
+Recommended Permission:
+640
+
+Reason:
+System logs should be protected from unauthorized modifications while allowing administrators to read them.
+
+
+4. personal_notes.txt
+
+Recommended Permission:
+600
+
+Reason:
+Personal notes are private and should only be accessible by the owner.
